@@ -38,19 +38,40 @@ const requestOptions = {
   redirect: "follow"
 };
 
-fetch("/api/generate", requestOptions)
-  .then((response) => response.json())
-  .then((result) => {
-    setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortUrl}`)
-    seturl('')
-    setshortUrl('')
-    console.log(result)
+// fetch("/api/generate", requestOptions)
+//   .then((response) => response.json())
+//   .then((result) => {
+//     setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortUrl}`)
+//     seturl('')
+//     setshortUrl('')
+//     console.log(result)
   
-    alert(result.message)
+//     alert(result.message)
 
-  }
-  )
-  .catch((error) => console.error(error));
+//   }
+//   )
+//   .catch((error) => console.error(error));
+
+fetch("/api/generate", requestOptions)
+  .then(async (response) => {
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(errorText || "Something went wrong");
+    }
+    return response.json();
+  })
+  .then((result) => {
+    setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortUrl}`);
+    seturl('');
+    setshortUrl('');
+    console.log(result);
+    alert(result.message);
+  })
+  .catch((error) => {
+    console.error("Error in fetch:", error);
+    alert("Something went wrong. Check console for details.");
+  });
+
 }
 
 
