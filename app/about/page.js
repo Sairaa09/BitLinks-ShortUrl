@@ -17,7 +17,7 @@ const About = () => {
         <p className="  text-gray-600">
           BitLinks was built with a vision to simplify how people share and manage links online. Our journey began with a clear purpose: to create a platform that transforms long, cluttered URLs into clean, trackable, and shareable links effortlessly.</p>
  <p className="  text-gray-600">
-Since our launch, we’ve focused on delivering a fast, secure, and user-friendly experience. Whether you're a digital marketer, content creator, or everyday user, BitLinks helps you shorten links, customize slugs, and monitor performance with real-time analytics. Our platform combines simplicity with powerful features to keep your links organized and impactful.</p>
+Since our launch, we have focused on delivering a fast, secure, and user-friendly experience. Whether you're a digital marketer, content creator, or everyday user, BitLinks helps you shorten links, customize slugs, and monitor performance with real-time analytics. Our platform combines simplicity with powerful features to keep your links organized and impactful.</p>
  
 <b >Our Mission</b>
 
