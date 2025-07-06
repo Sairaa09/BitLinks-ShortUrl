@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 BITLINKS-SHORTURL
 
-## Getting Started
+*Transform Links, Accelerate Connections, Unleash Possibilities*
 
-First, run the development server:
+![Last Commit](https://img.shields.io/badge/last%20commit-june-blue)
+![JavaScript](https://img.shields.io/badge/javascript-99.3%25-yellow)
+![Languages](https://img.shields.io/badge/languages-2-informational)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Built With
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![JSON](https://img.shields.io/badge/JSON-grey)
+![Markdown](https://img.shields.io/badge/Markdown-black)
+![npm](https://img.shields.io/badge/npm-red)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![MongoDB](https://img.shields.io/badge/MongoDB-green)
+![React](https://img.shields.io/badge/React-blue)
+![ESLint](https://img.shields.io/badge/ESLint-purple)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📚 Table of Contents
 
-To learn more about Next.js, take a look at the following resources:
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📖 Overview
 
-## Deploy on Vercel
+**BitLinks-ShortUrl** is a modern, scalable URL shortening platform built with Next.js. It offers a sleek web interface and robust backend using MongoDB. Designed for developers, it simplifies link management while ensuring high performance and maintainability.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔍 Why BitLinks-ShortUrl?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project enables quick and reliable URL shortening with a clean, optimized web interface. Key features:
+
+- 🚀 **Fast API Integration** – MongoDB-based backend for efficient URL creation and storage.
+- 🎨 **Modern Styling** – Built with Tailwind CSS and PostCSS for utility-first design.
+- 🧭 **Intuitive Routing** – Seamless navigation and dynamic pages.
+- 🧱 **Scalable Architecture** – Modular structure that supports growth and customization.
+- 👨‍💻 **Developer-Friendly Setup** – Easy to develop, deploy, and maintain.
+
+---
+
+## ⚙️ Getting Started
+
+### ✅ Prerequisites
+
+Ensure you have the following:
+
+- **Programming Language:** JavaScript  
+- **Package Manager:** npm
+
+---
+
+### 📦 Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Sairaa09/BitLinks-ShortUrl
